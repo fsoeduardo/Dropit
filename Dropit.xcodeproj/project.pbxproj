@@ -13,6 +13,7 @@
 		A0C92D081B10C88500DF7DBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C92D061B10C88500DF7DBA /* LaunchScreen.xib */; };
 		A0C92D141B10C88500DF7DBA /* DropitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C92D131B10C88500DF7DBA /* DropitTests.swift */; };
 		A0C92D1E1B10C8FC00DF7DBA /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C92D1D1B10C8FC00DF7DBA /* DropitViewController.swift */; };
+		A0C92D201B10D87400DF7DBA /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C92D1F1B10D87400DF7DBA /* DropitBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A0C92D121B10C88500DF7DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C92D131B10C88500DF7DBA /* DropitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropitTests.swift; sourceTree = "<group>"; };
 		A0C92D1D1B10C8FC00DF7DBA /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
+		A0C92D1F1B10D87400DF7DBA /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A0C92D011B10C88500DF7DBA /* Main.storyboard */,
 				A0C92D1D1B10C8FC00DF7DBA /* DropitViewController.swift */,
+				A0C92D1F1B10D87400DF7DBA /* DropitBehavior.swift */,
 				A0C92CFB1B10C88500DF7DBA /* Supporting Files */,
 			);
 			path = Dropit;
@@ -214,6 +217,7 @@
 			files = (
 				A0C92D1E1B10C8FC00DF7DBA /* DropitViewController.swift in Sources */,
 				A0C92CFE1B10C88500DF7DBA /* AppDelegate.swift in Sources */,
+				A0C92D201B10D87400DF7DBA /* DropitBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
