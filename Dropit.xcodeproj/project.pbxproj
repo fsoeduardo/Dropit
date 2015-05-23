@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A0C92CFE1B10C88500DF7DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C92CFD1B10C88500DF7DBA /* AppDelegate.swift */; };
-		A0C92D001B10C88500DF7DBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C92CFF1B10C88500DF7DBA /* ViewController.swift */; };
 		A0C92D031B10C88500DF7DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C92D011B10C88500DF7DBA /* Main.storyboard */; };
 		A0C92D051B10C88500DF7DBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C92D041B10C88500DF7DBA /* Images.xcassets */; };
 		A0C92D081B10C88500DF7DBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C92D061B10C88500DF7DBA /* LaunchScreen.xib */; };
 		A0C92D141B10C88500DF7DBA /* DropitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C92D131B10C88500DF7DBA /* DropitTests.swift */; };
+		A0C92D1E1B10C8FC00DF7DBA /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C92D1D1B10C8FC00DF7DBA /* DropitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		A0C92CF81B10C88500DF7DBA /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C92CFC1B10C88500DF7DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C92CFD1B10C88500DF7DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0C92CFF1B10C88500DF7DBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0C92D021B10C88500DF7DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0C92D041B10C88500DF7DBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A0C92D071B10C88500DF7DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A0C92D0D1B10C88500DF7DBA /* DropitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C92D121B10C88500DF7DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C92D131B10C88500DF7DBA /* DropitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropitTests.swift; sourceTree = "<group>"; };
+		A0C92D1D1B10C8FC00DF7DBA /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +77,8 @@
 		A0C92CFA1B10C88500DF7DBA /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				A0C92CFD1B10C88500DF7DBA /* AppDelegate.swift */,
-				A0C92CFF1B10C88500DF7DBA /* ViewController.swift */,
 				A0C92D011B10C88500DF7DBA /* Main.storyboard */,
-				A0C92D041B10C88500DF7DBA /* Images.xcassets */,
-				A0C92D061B10C88500DF7DBA /* LaunchScreen.xib */,
+				A0C92D1D1B10C8FC00DF7DBA /* DropitViewController.swift */,
 				A0C92CFB1B10C88500DF7DBA /* Supporting Files */,
 			);
 			path = Dropit;
@@ -90,6 +87,9 @@
 		A0C92CFB1B10C88500DF7DBA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A0C92D041B10C88500DF7DBA /* Images.xcassets */,
+				A0C92D061B10C88500DF7DBA /* LaunchScreen.xib */,
+				A0C92CFD1B10C88500DF7DBA /* AppDelegate.swift */,
 				A0C92CFC1B10C88500DF7DBA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C92D001B10C88500DF7DBA /* ViewController.swift in Sources */,
+				A0C92D1E1B10C8FC00DF7DBA /* DropitViewController.swift in Sources */,
 				A0C92CFE1B10C88500DF7DBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
